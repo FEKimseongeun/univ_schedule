@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "579126950365",
+    "project_id": "univschedule",
+    "storage_bucket": "univschedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579126950365:android:f74988ca11691ec145de34",
+        "android_client_info": {
+          "package_name": "com.waobab.univ_schedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579126950365-a3q7as6vdcgg3qvgro2rga3kn3b67hrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.waobab.univ_schedule",
+            "certificate_hash": "3ac6af8fd28637352bfb29ecedd345f1a7393bdf"
+          }
+        },
+        {
+          "client_id": "579126950365-0aou656aonmjq1i0th961prn8fu72j87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-b29n61yDQdmsV4of4KWlqw1Br8tUjpc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579126950365-0aou656aonmjq1i0th961prn8fu72j87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
