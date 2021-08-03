@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
 
   void _initUserModel(FirebaseAuthState firebaseAuthState, BuildContext context) {
 
-    UserModelState userModelState = Provider.of(context, listen: false);      // 여기서 provider로 userModelState를 계속 불러와준다.
+    UserModelState userModelState = Provider.of(context, listen: false);      // 여기서 provider로 userModelState를 계속 불러와준다..
 
     userModelState.currentStreamSub = userNetworkRepository
         .getUserModelStream(firebaseAuthState.firebaseUser!.uid)              // getUserModelStream은 userModel을 stream으로 계속 불러온다.
