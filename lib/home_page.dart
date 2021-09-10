@@ -32,7 +32,7 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    if (size == null) size = MediaQuery.of(context).size;
+    if (size == null) size = MediaQuery.of(context).size;           // 여기서 각자의 화면의 크기를 가져오고 size 클래스의 size에 넣어서 앱 안에서 쓸 수 있습니다.
     UniversityState univState = Provider.of<UniversityState>(context, listen: false);
 
     return MaterialApp(

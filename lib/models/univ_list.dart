@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:univ_schedule/models/university.dart';
 
+// 여기도 나중에 같이 얘기했던 것 처럼 firebase로 뺄 예정
+
 class Universities {
 
   List<University> _univ = [

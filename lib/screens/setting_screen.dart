@@ -9,6 +9,10 @@ import 'package:univ_schedule/screens/feedback_screen.dart';
 import 'package:univ_schedule/screens/introduce_screen.dart';
 import 'package:univ_schedule/widgets/page_title.dart';
 
+// 그냥 구현만 되게 짠 것이라 같이 고쳐야 할 것 같아요... 아주 비효율적인 코드의 끝판왕입니다.
+// 보여드리기 부끄럽네요
+
+
 class SettingScreen extends StatefulWidget {
   const SettingScreen({Key? key}) : super(key: key);
 

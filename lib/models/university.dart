@@ -6,6 +6,4 @@ class University {
   final String hex_code;
 
   University(this.univ_en_name, this.univ_ko_name, this.hex_code,);
-
-
 }

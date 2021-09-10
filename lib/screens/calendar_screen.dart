@@ -10,6 +10,8 @@ import 'package:univ_schedule/repo/user_network_repository.dart';
 import 'package:univ_schedule/screens/detail_schedule.dart';
 import 'package:univ_schedule/widgets/page_title.dart';
 
+// pubget 에서 table_calendar 라이브러리 찾으면 나오고 아마 문서를 확인하는 것이 더 도움이 될 것 같습니다~
+
 class CalendarScreen extends StatefulWidget {
   @override
   _CalendarScreenState createState() => _CalendarScreenState();

@@ -5,7 +5,7 @@ import 'package:univ_schedule/models/user_model.dart';
 
 class UserModelState extends ChangeNotifier {
   UserModel? _userModel;
-  StreamSubscription<UserModel>? _currentStreamSub;
+  StreamSubscription<UserModel>? _currentStreamSub;         // usermodel을 stream으로 계속 불러옵니다.    logout누르면 stream이 logout을 읽어와줌
   UserModel get userModel => _userModel!;
 
   set userModel(UserModel userModel) {
@@ -15,7 +15,7 @@ class UserModelState extends ChangeNotifier {
 
   set currentStreamSub(StreamSubscription<UserModel> currentStreamSub) => _currentStreamSub = currentStreamSub;
 
-  clear() {
+  clear() {             // for logout
     if(_currentStreamSub != null)
       _currentStreamSub!.cancel();
     _currentStreamSub = null;

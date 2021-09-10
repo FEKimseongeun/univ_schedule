@@ -25,7 +25,7 @@ class _AuthScreenState extends State<AuthScreen> {
       body: SafeArea(
         child: Stack(
           children: [
-            IndexedStack(
+            IndexedStack(                     // sign in에서 작성하다가 sign up으로 가고 다시 sign in 으로 가도 쓰고 있던 문자들이 남아있습니다. (속도 향상의 추가 장점도 보유?)
               index: selectedForm,
               children: forms,
             ),

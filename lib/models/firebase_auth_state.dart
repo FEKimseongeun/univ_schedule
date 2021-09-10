@@ -40,7 +40,7 @@ class FirebaseAuthState extends ChangeNotifier {
         .catchError((error) {
       print(error);
       String _message = "";
-      switch (error.code) {
+      switch (error.code) {     // 특정 에러메세지들에 대한 오류를 snackbar로 불러줍니다.
         case 'ERROR_WEAK_PASSWORD':
           _message = "패스워드 잘 넣어줘!!";
           break;

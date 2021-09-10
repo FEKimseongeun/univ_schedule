@@ -6,9 +6,9 @@ class UserModel {
   final String email;
   final String universityName;
   final List<dynamic> alarmList;
-  final DocumentReference reference;
+  final DocumentReference reference;            // reference는 firebase 에서 어디에 저장되었는지 주소값을 알려줍니다.
   // this.username, this.universityName, this.alarmList, this.userKey,
-  UserModel.fromMap(Map<String, dynamic>? map,this.userKey, {required this.reference})          // 하나씩 5개 있는 것을 3/1/1 로 묶었다
+  UserModel.fromMap(Map<String, dynamic>? map,this.userKey, {required this.reference})          // json의 map 형태의 데이터를 우리의 양식에 맞춰줍니다. ,하나씩 5개 있는 것을 3/1/1 로 묶었다
   :
   email = map![KEY_USEREMAIL],
   universityName = map[KEY_UNIVERSITYNAME],

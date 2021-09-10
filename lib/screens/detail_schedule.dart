@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:univ_schedule/constants/common_size.dart';
 import 'package:univ_schedule/constants/screen_size.dart';
 
+// 같이 만들어야 하는 스크린... 하하
+
 class DetailSchedule extends StatefulWidget {
   const DetailSchedule({Key? key}) : super(key: key);
 

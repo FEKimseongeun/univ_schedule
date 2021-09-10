@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+// color 를 materialcolor로 바꿔줄 수 있습니다.
+
 List<MaterialColor> univ_color = [yonsei, seoul, korea, sogang, sungkyunkwan, hanyang, chungang];
 List<String> univ_color_string = ['yonsei', 'seoul', 'korea', 'sogang', 'sungkyunkwan','hanyang','chungang'];
 const MaterialColor yonsei = MaterialColor(
